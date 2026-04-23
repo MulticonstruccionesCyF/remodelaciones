@@ -154,7 +154,7 @@
             
             const whatsappUrl = `https://api.whatsapp.com/send?phone=573187633556&text=${encodeURIComponent(text)}`;
             
-            // Abrimos WhatsApp después de un segundo para permitir que el formulario se envíe por mail
+            // Abrimos el WhatsApp después de un segundo para permitir que el formulario se envíe por mail
             setTimeout(() => {
                 window.open(whatsappUrl, '_blank');
             }, 800);
